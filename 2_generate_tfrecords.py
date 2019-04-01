@@ -170,14 +170,11 @@ def classAsTextToClassAsInt(classAsText):
     # ToDo: If you have more than one classification, add an if statement for each
     # ToDo: i.e. if you have 3 classes, you would have 3 if statements and then the else
 
-    if classAsText == 'Subbu':
+    if classAsText == 'Deer':
         return 1
-    elif classAsText == 'Sumanth':
+    elif classAsText == 'Peacock':
         return 2
-    elif classAsText == 'Vijay':
-        return 3
-    elif classAsText == 'Madhu':
-        return 4
+    
     else:
         print("error in class_text_to_int(), row_label could not be identified")
         return -1
